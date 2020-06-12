@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    color:white;
+    font-size:20px;
+}
+header{
+    height:8vh;
+    background-color:grey;
+    padding-left:20px;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.head{
+    color:white;
+    font-size:15px;
+    margin-right:20px;
+}
+.box{
+    display:flex;
+    margin-right:10px;
+}
+.two{
+    height:25vh;
+    background-color:black;
+    color: rgb(255, 255, 115);
+    font-size:40px;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.container{
+    display:flex;
+    height:100vh;
+    flex-direction:column;
+}
+footer{
+    height:8vh;
+    background-color:rgb(31, 31, 74);
+}
+.greenbox{
+    background-color:rgb(129, 254, 212);
+    height:30vh;
+    width:30vh;
+}
+.orangebox{
+    background-color:orange;
+    height:25vh;
+    width:40vw;
+}
+p{
+    width:40vh;
+}
+.photo{
+    background-image:url(elephant.jpg);
+    height:30vh;
+    width:40vh;
+    background-size: 40vh 30vh;
+}
+.frame{
+    margin-top:20px;
+    display: flex;
+    justify-content:space-around;
+
+}
